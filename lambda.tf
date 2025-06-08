@@ -19,3 +19,4 @@ resource "aws_lambda_function" "own_lambda" {
   tracing_config {
     mode = "Active" # or "PassThrough"          # Adjust the path
   }
+}
